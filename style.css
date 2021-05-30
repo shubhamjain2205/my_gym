@@ -1,0 +1,96 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background: url(img/gym.jpg);
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    font-family: 'Baloo Bhaina 2', cursive;
+}
+.left{
+/* border: 2px solid red; */
+display: inline-block;
+position: absolute;
+    left: 24px;
+    top: 10px;
+} 
+.left div{
+    text-align: center;
+}
+.left img{
+    width: 88px;
+    height: 70px;
+    filter: invert(100%);
+}
+.center{
+    /* border: 2px solid blue; */
+    display: block;
+    width: 30%;
+    margin: 10px auto;
+}
+.right{
+    /* border: 2px solid yellow; */
+    display: inline-block;
+    position: absolute;
+    right: 24px;
+    top: 10px;
+}
+.navbar{
+    display: inline-block;
+}
+.navbar li{
+    display: inline-block;
+}
+.navbar li a{
+    color: whitesmoke;
+    text-decoration: none;
+    padding: 34px 23px;
+}
+.navbar li a:hover, .navbar li a.active{
+    color: rgb(180, 180, 180);
+    text-decoration: underline;
+    padding: 34px 23px;
+}
+.btn{
+    margin: 0px 9px;
+    color: white;
+    background-color: black;
+    padding: 12px 24px;
+    border: 2px solid grey;
+    border-radius: 10px;
+    cursor: pointer;
+    font-family: 'Baloo Bhaina 2', cursive;
+}
+.btn:hover{
+    background-color: rgb(54, 52, 52);
+    font-family: 'Baloo Bhaina 2', cursive;
+}
+.container{
+    border: 3px solid rgb(221, 221, 221);
+    margin: 102px 380px;
+    padding: 30px 64px;
+    border-radius: 26px; 
+        
+}
+.form-group input{
+    text-align: center;
+    display: block;
+    width: 315px;
+    padding: 4px;
+    border: 2px solid whitesmoke;
+    margin: 3px auto; 
+    border-radius: 20px;
+    font-family: 'Baloo Bhaina 2', cursive;
+    outline: none;
+}
+.container h1{
+    text-align: center;
+}
+.container button{
+    display: block;
+    width: 23%;
+    margin: 12px auto;
+
+}
